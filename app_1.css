@@ -1,0 +1,16 @@
+@charset "utf-8";
+*{margin:0px;padding: 0px;box-sizing: border-box;text-decoration: none;list-style: none;outline: none;}
+body{font-family: Arial, Helvetica, sans-serif;min-height: 100vh;}
+    /* start section */
+body section{width: 100%;min-height: inherit; background-image:linear-gradient(to left,rgb(34, 175, 231),rgb(144, 223, 255))}
+body section .container{width: 400px;border: 1px solid #000; position: fixed;top: 50%;left:50%;transform: translate(-50%,-50%); padding:30px 0px;}
+body section h1{text-align: center;font-size: 30px;color: #fff;margin: 0px auto 15px auto;}
+body section .inp{width: 80%;background: #fff;margin: 0px auto;display: flex;align-items: center;justify-content: space-between;}
+body section .inp .inp_text{border: none;height: 45px;padding: 10px;width: 80%;font-size: 18px;}
+body section .inp .btn_add {float: right;background-color:rgb(0, 121, 177);color: #fff;border: none;padding:5px 15px;font-size: 16px;margin-right: 5px;z-index: 1;}
+body section .inp .btn_add:hover{cursor: pointer;}
+body section .content{width: 80%;height: 300px;background: #fff;margin: 0px auto;margin-top: 30px;overflow-x:hidden;overflow-y: auto;}
+body section .content ul {margin-top:15px;}
+body section .content ul li{width: 80%; font-size: 18px;margin: 5px auto; border-bottom:2px solid rgb(85, 85, 85);padding: 10px 10px 5px 0px;position: relative;display: flex;align-items: center;}
+body section .content ul li i{color:black;}
+body section .content ul li i:hover{color:red}
